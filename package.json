@@ -1,0 +1,36 @@
+{
+  "name": "hanivox",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"src/**/*.test.ts\"",
+    "doctor": "expo-doctor"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "*",
+    "expo": "~58.0.0",
+    "expo-build-properties": "*",
+    "expo-constants": "*",
+    "expo-dev-client": "*",
+    "expo-haptics": "*",
+    "expo-linear-gradient": "*",
+    "expo-linking": "*",
+    "expo-router": "*",
+    "expo-sqlite": "*",
+    "expo-status-bar": "*",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "typescript": "*"
+  }
+}
